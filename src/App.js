@@ -38,7 +38,7 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Movie-App">
       <ScrollToTop />
       <AppContent />
     </BrowserRouter>
